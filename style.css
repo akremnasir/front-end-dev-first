@@ -1,11 +1,9 @@
 body{
     margin: 0;
     font-family: sans-serif;
-    overflow-x: hidden;
-    
+    overflow-x: hidden;  
 }
 .head{
-    
     height: 46px;
     display: grid;
     grid-template-columns: 255px 1fr;
@@ -683,7 +681,7 @@ footer a{
     }
 }
 @media screen and (max-width: 375px){
-    
+
     .head{
         height: 70px;
     } 
@@ -696,6 +694,7 @@ footer a{
    }
    .interesting{
     margin-left: -30%;
+    overflow-x: hidden;
    }
 }
 .default{
@@ -750,12 +749,3 @@ footer a{
 .interesting .slideImg {
   transition: height 0.3s ease;
 }
-
-/* .interesting .ff-img .slideImg,
-.interesting .ft-img .slideImg {
-  height: 150px;
-}
-
-.interesting .s-img.active .slideImg {
-  height: 200px;
-} */
